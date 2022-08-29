@@ -9,7 +9,7 @@
 
   const descriptionHeight = 70
   const descriptionWidth = 300
-  const barHeight = 10
+  const barHeight = 15
   const barY = y + descriptionHeight + barHeight
 
   const { start, end, name, color, roles, devType, tech, description } = project
@@ -22,7 +22,7 @@
       name,
       color,
       description,
-      y: barY + 20,
+      y: barY + 25,
       x: x + width / 2
     })
   }
@@ -40,13 +40,18 @@
 
 <!--Description-->
 <g>
-  <foreignObject x={Math.min(descriptionMaxX, x)} y={y} width={descriptionWidth} height={descriptionHeight}>
+  <foreignObject
+    x={Math.min(descriptionMaxX, x)}
+    y={y + 5}
+    width={descriptionWidth}
+    height={descriptionHeight}
+  >
     <div class="flex flex-col justify-end h-full text-xs">
-        <p class="font-bold text-sm" style="color: {color}">{name}</p>
+      <p class="font-bold text-sm">{name}</p>
       <div class="mt-1">
-        <p><span class="font-bold mr-2" style="color: {color}">Role:</span>{roles.join(', ')} ({devType})</p>
+        <p><span class="font-bold mr-2">Role:</span>{roles.join(', ')} ({devType})</p>
         <div class="flex justify-start">
-          <span class="font-bold mr-2" style="color: {color}">Technology</span>
+          <span class="font-bold mr-2">Technology</span>
           <span>{tech.join(', ')}</span>
         </div>
       </div>
@@ -55,27 +60,26 @@
 </g>
 
 <!--Line-->
-<line x1={0} y1={barY + 5} x2={chartWidth} y2={barY + 5} stroke="#d1d5db" stroke-dasharray="2"></line>
+<line
+  x1={0}
+  y1={barY + barHeight / 2}
+  x2={chartWidth}
+  y2={barY + barHeight / 2}
+  stroke="#d1d5db"
+  stroke-dasharray="2"
+/>
 
 <!--Bar-->
-<rect
-  {x}
-  y={barY}
-  {width}
-  height={barHeight}
-  fill={color}
-  rx="5"
-></rect>
+<rect {x} y={barY} {width} height={barHeight} fill={color} opacity={0.9} rx="3" />
 
 <!--Hover Area-->
 <rect
-    x={0}
-    y={y}
-    width={chartWidth}
-    height={descriptionHeight + barHeight + 20}
-    opacity={0}
-    on:mouseover={handleOnMouseOver}
-    on:focus={handleOnMouseOver}
-    on:mouseleave={handleOnMouseLeave}
->
-</rect>
+  x={0}
+  {y}
+  width={chartWidth}
+  height={descriptionHeight + barHeight + 20}
+  opacity={0}
+  on:mouseover={handleOnMouseOver}
+  on:focus={handleOnMouseOver}
+  on:mouseleave={handleOnMouseLeave}
+/>

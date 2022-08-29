@@ -1,11 +1,11 @@
-import type {Project} from "../types";
+import type { Project } from '../types'
 
 const projects: Project[] = [
   {
     name: 'Homer',
     start: new Date(2016, 4),
     end: new Date(2016, 10),
-    color: '#8DD3C7FF',
+    color: 'rgb(0 112 169)',
     roles: ['Frontend'],
     devType: 'In-House & Consulting',
     tech: ['React'],
@@ -18,20 +18,20 @@ const projects: Project[] = [
     name: 'Data curation tool',
     start: new Date(2016, 11),
     end: new Date(2018, 2),
-    color: '#BEBADAFF',
+    color: 'rgb(0 112 169)',
     roles: ['Full stack'],
     devType: 'In-House',
     tech: ['Django', 'Postgres', 'React'],
     description:
-      "I started in Medisapiens working with Data curation tool. " +
-      "The application can curate and ontologize medical data. This was my first Django " +
-      "project and I started it as a single developer project."
+      'I started in Medisapiens working with Data curation tool. ' +
+      'The application can curate and ontologize medical data. This was my first Django ' +
+      'project and I started it as a single developer project.'
   },
   {
     name: 'Genomic tool for big pharma',
     start: new Date(2017, 8),
     end: new Date(2019, 11),
-    color: '#80B1D3FF',
+    color: 'rgb(0 112 169)',
     roles: ['Full stack'],
     devType: 'Consulting',
     tech: ['Node', 'MongoDB', 'React'],
@@ -44,7 +44,7 @@ const projects: Project[] = [
     name: 'Online vet platform',
     start: new Date(2018, 8),
     end: new Date(2020, 10),
-    color: '#FB8072FF',
+    color: 'rgb(0 112 169)',
     roles: ['Full stack'],
     devType: 'Consulting',
     tech: ['Django', 'Postgres', 'React'],
@@ -57,7 +57,7 @@ const projects: Project[] = [
     name: 'Laboratory information system',
     start: new Date(2018, 2),
     end: new Date(2020, 10),
-    color: '#FDB462FF',
+    color: 'rgb(0 112 169)',
     roles: ['Backend'],
     devType: 'Consulting',
     tech: ['Django', 'Postgres'],
@@ -69,7 +69,7 @@ const projects: Project[] = [
     name: 'Genomic software suite',
     start: new Date(2020, 4),
     end: new Date(),
-    color: '#4f46e5',
+    color: 'rgb(0 112 169)',
     roles: ['Frontend', 'Cloud'],
     devType: 'In-House',
     tech: ['React', 'AWS', 'Kubernetes', 'Terraform'],

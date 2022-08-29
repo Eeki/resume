@@ -13,10 +13,6 @@ const skillsByCategory: SkillsByCategory[] = [
         level: 85
       },
       {
-        name: 'Terraform',
-        level: 85
-      },
-      {
         name: 'Java',
         level: 70
       },
@@ -27,7 +23,7 @@ const skillsByCategory: SkillsByCategory[] = [
       {
         name: 'Go',
         level: 60
-      },
+      }
     ]
   },
   {
@@ -52,7 +48,7 @@ const skillsByCategory: SkillsByCategory[] = [
       {
         name: 'Serverless',
         level: 70
-      },
+      }
     ]
   },
   {
@@ -61,6 +57,10 @@ const skillsByCategory: SkillsByCategory[] = [
       {
         name: 'AWS',
         level: 90
+      },
+      {
+        name: 'Terraform',
+        level: 85
       },
       {
         name: 'Kubernetes',
@@ -72,11 +72,11 @@ const skillsByCategory: SkillsByCategory[] = [
       },
       {
         name: 'Google cloud',
-        level: 60,
+        level: 60
       },
       {
         name: 'Azure',
-        level: 50,
+        level: 50
       }
     ]
   },
@@ -122,16 +122,22 @@ const skillsByCategory: SkillsByCategory[] = [
     category: 'Data',
     skills: [
       {
-        name: 'Pandas',
-        level: 80
+        name: 'SQL',
+        level: 85
       },
       {
         name: 'D3',
         level: 80
       },
+      {
+        name: 'Pandas',
+        level: 70
+      }
     ]
   },
-  { category: 'Mobile', skills: [
+  {
+    category: 'Mobile',
+    skills: [
       {
         name: 'React Native',
         level: 70

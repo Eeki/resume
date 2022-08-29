@@ -26,3 +26,11 @@ export interface ToolTipType {
   x: number
   y: number
 }
+
+export interface SideProject {
+  name: string
+  description: string
+  image: string
+  gitRepo: string
+  link?: string
+}
