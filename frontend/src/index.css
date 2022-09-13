@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "@fontsource/open-sans/400.css";
 
 @tailwind base;
 @tailwind components;

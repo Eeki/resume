@@ -51,7 +51,7 @@
       <div class="mt-1">
         <p><span class="font-bold mr-2">Role:</span>{roles.join(', ')} ({devType})</p>
         <div class="flex justify-start">
-          <span class="font-bold mr-2">Technology</span>
+          <span class="font-bold mr-2">Technology:</span>
           <span>{tech.join(', ')}</span>
         </div>
       </div>
