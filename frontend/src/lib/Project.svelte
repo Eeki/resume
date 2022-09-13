@@ -70,7 +70,7 @@
 />
 
 <!--Bar-->
-<rect {x} y={barY} {width} height={barHeight} fill={color} opacity={0.9} rx="3" />
+<rect {x} y={barY} {width} height={barHeight} fill={color} rx="3" />
 
 <!--Hover Area-->
 <rect

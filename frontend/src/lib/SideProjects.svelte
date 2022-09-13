@@ -4,7 +4,7 @@
 
 <div class="flex flex-wrap gap-4">
   {#each sideProjects as { name, description, image, link, gitRepo, technologies }}
-    <div class="sm:w-[500px] m-auto bg-white rounded-lg mt-10 shadow-xl">
+    <div class="sm:w-[500px] m-auto bg-white rounded-lg mt-10 border">
       <div
         class="h-[250px] w-full p-4 bg-cover bg-center rounded-t-lg"
         style="background-image: url({image})"

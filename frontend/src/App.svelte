@@ -25,30 +25,24 @@
         <h2 class="text-3xl text-center">A short summary</h2>
         <div class="columns-2xs mt-8">
           <p class="mb-4 text-gray-800">
-            I am a make-it-happen guy with wide knowledge in Web Development and Cloud
-            technologies. I am a Experienced Application Specialist with a demonstrated
-            history of working with many different projects and tools.
+            I am a make-it-happen guy with wide knowledge in web development and
+            cloud technologies with a demonstrated history of working with many
+            different projects and tools.
           </p>
           <p class="mb-4 text-gray-800">
-            My special interest is doing complete services I'm skilled in Web Development
-            and Cloud, using multiple different languages and frameworks. Usually I'm the
-            guy who gets integrations working Python (Programming Language), Django,
-            RESTful API and GraphQL My special interest areas are big and messy datasets,
-            reproducible research, and network troubleshooting using statistical and
-            machine learning methods.
+            Learning things is what drives me — I believe that there is always room
+            for improvement, especially with regards to my own abilities,
+            and I constantly seek to sharpen my skills.
           </p>
           <p class="mb-4 text-gray-800">
-            Learning things is what drives me — I believe that there is always room for
-            improvement, especially with regards to my own abilities, and I constantly
-            seek to sharpen my skills.
+            In my work I aim for simplicity, maintainability and results.
+            Honesty, transparency and failing early
+            are my core values that have served me well in my career with customers from
+            small and big companies in Finland and abroad.
           </p>
           <p class="mb-4 text-gray-800">
-            TODO: - In my work I aim for simplicity and results. Honesty transparency and
-            fail early - Koodauksessa: Yksinkertaisuus, Selkeys, luettavuus ja
-            muutettavuus - I studied and worked in field of biology but now I have come to
-            realize that my true passion lies in software development. - Tehnyt in house
-            kehitystä sekä konsultointia isoille ja pienille yrityksille jotka toimivar
-            suomessa sekä ulkomailla
+            I studied and worked in the field of biology but after CS studies
+            I have come to realize that my true passion lies in software development.
           </p>
         </div>
       </article>

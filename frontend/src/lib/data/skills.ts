@@ -122,11 +122,11 @@ const skillsByCategory: SkillsByCategory[] = [
     category: 'Data',
     skills: [
       {
-        name: 'SQL',
-        level: 85
+        name: 'Data visualization',
+        level: 90
       },
       {
-        name: 'D3',
+        name: 'SQL',
         level: 80
       },
       {

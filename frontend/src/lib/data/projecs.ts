@@ -11,7 +11,7 @@ const projects: Project[] = [
     tech: ['React'],
     description:
       'My first job as a developer in a startup named Homer. We were developing a innovative ' +
-      'rental listing site that could find one a best place to live based on locations. ' +
+      'rental listing site that could find the best place to live for a individual based on locations and services. ' +
       'We also did some consulting work to support our operations.'
   },
   {
@@ -63,19 +63,20 @@ const projects: Project[] = [
     tech: ['Django', 'Postgres'],
     description:
       'I was responsible for the backend of this LIS system. This project was done for a company ' +
-      'that is doing clinical laboratory analysis in Netherlands.'
+      'in Netherlands that is doing clinical laboratory analysis. The big challenge was to manage do everything ' +
+      'in very limited time and with a very small team.'
   },
   {
     name: 'Genomic software suite',
     start: new Date(2020, 4),
-    end: new Date(),
+    end: new Date(2022, 9),
     color: 'rgb(0 112 169)',
     roles: ['Frontend', 'Cloud'],
     devType: 'In-House',
     tech: ['React', 'AWS', 'Kubernetes', 'Terraform'],
     description:
       'GSS is a flagship product of Medisapiens ' +
-      " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+      "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
   }
 ]
 
