@@ -15,7 +15,7 @@
             <img
               src="aws-cert.png"
               alt="aws-cert"
-              class="absolute right-0 bottom-0 h-36 w-36"
+              class="absolute right-0 bottom-0 h-[6.5rem] w-[6.5rem] sm:h-36 sm:w-36"
             />
           </div>
         </div>
