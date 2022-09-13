@@ -63,8 +63,9 @@ const projects: Project[] = [
     tech: ['Django', 'Postgres'],
     description:
       'I was responsible for the backend of this LIS system. This project was done for a company ' +
-      'in Netherlands that is doing clinical laboratory analysis. The big challenge was to manage do everything ' +
-      'in very limited time and with a very small team.'
+      'in Netherlands that is doing clinical laboratory analysis. The big challenge was to manage to do everything ' +
+      'in very limited time and with a very small team. ' +
+      'The initial project was done in two months and a second version in a month'
   },
   {
     name: 'Genomic software suite',
