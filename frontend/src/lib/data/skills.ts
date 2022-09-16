@@ -94,7 +94,11 @@ const skillsByCategory: SkillsByCategory[] = [
       {
         name: 'Svelte',
         level: 70
-      }
+      },
+      {
+        name: 'Design (Figma)',
+        level: 70
+      },
     ]
   },
   {
